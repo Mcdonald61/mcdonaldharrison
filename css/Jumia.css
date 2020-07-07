@@ -1,0 +1,1984 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    .slide{
+        width: 100%;
+    }
+@media all and (max-width: 1220px){
+    .slide{
+      display: block;
+      width: 100%;
+    }
+}
+.two{
+    color: orange;
+    font-size: 80%;
+    background-color: whitesmoke;
+    padding: 1%;
+    padding-left: 5%;
+}
+nav{
+    display: flex;
+    margin-left: 20%;
+    padding: 2%;
+    position: relative;
+    
+}
+@media all and (max-width: 1200px){
+    nav{
+        display: inline-block;
+        margin: 0px;
+    }
+}
+#Search{
+    padding: 8px;
+    padding-left: 3%;
+    width: 50%;
+}
+@media all and (max-width: 1200px){
+    #Search{
+        width: 150%;
+        font-size: 50%;
+        position: absolute;
+        left: 29%;
+    
+    }
+}
+.submit{
+    background-color: orange;
+    border: none;
+    padding: 13px;
+    border-radius: 10%;
+    width: 10%;
+    color: white; 
+    margin-left: 7px ;
+}
+.submit:hover{
+    background-color: rgb(223, 148, 10);
+}
+@media all and (max-width: 1200px){
+    .submit{
+        background-color: green;
+        width: 150%;
+        font-size: 50%;
+        position: absolute;
+        bottom: 66%;
+        left: 250%;
+
+        
+    }
+}
+.three
+    a:link, a:visited{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.three{
+    display: flex;
+    margin-top: 1%;
+} 
+@media all and (max-width: 1200px){
+.three{
+    display: inline-block;
+    font-size: 70%;
+    margin-top: 120%;
+    
+    
+
+}
+}
+#log{
+    margin-left: 50%;
+}
+    
+
+#help{
+    margin-left: 50%;
+}
+#cart{
+    margin-left: 50%;
+}
+.four{
+    background-image: url("../jumabac.jpg");
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    padding-bottom: 423%;
+    
+}
+@media all and (max-width: 1000px){
+   .four{
+        display: inline-block;
+}
+}
+.five
+   {
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 7%;
+    padding-right: 7%;
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 75%;
+    border-radius: 2%;
+}
+#li{
+    padding-bottom: 6%;
+}
+.five
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+@media all and (max-width: 1000px){
+    .five{
+        margin-top: 4%;
+        margin-right: 3%;
+    }
+}
+.funke{
+    width: 55%;
+    position: relative;
+    left: 2%;
+    margin-top: 1%;
+    margin-bottom: 7%;
+    border-radius: 2%;
+}
+@media all and (max-width: 1000px){
+    .funke{
+        width: 95%;
+        margin-top: -2%;
+
+    }
+}
+
+.six{
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-bottom: 24%;
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-top: 1%;
+    border-radius: 2%;
+    display: inline-block;
+}
+@media all and (max-width: 1000px){
+    .six{
+        margin-top: -2%;
+        width: 45%;
+        padding: 25%;
+        padding-top: 2%;
+        padding-bottom: 55%;
+        margin-left: 3%;
+        position: relative;
+    }
+}
+.icon1{
+    position: relative;
+    right: 40%;
+    width: 35%;
+}
+.seven{
+    font-size: 80%;
+    position: relative;
+    bottom: 17%
+}
+.seven
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+@media all and (max-width: 1000px){
+    .seven{
+        position: absolute;
+        bottom: 80%;
+        left: 30%;
+    }
+}
+.icon2{
+    position: relative;
+    right: 40%;
+    width: 35%;
+    bottom: 2%; 
+}
+@media all and (max-width: 1000px){
+    .icon2{
+        position: absolute;
+        bottom: 41%;
+        width: 20%;
+        left: 6%;
+    }
+    }
+.eight{
+    font-size: 80%;
+    position: relative;
+    bottom: 20%;
+}
+.eight
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+@media all and (max-width: 1000px){
+    .eight{
+        position: absolute;
+        bottom: 45%;
+        left: 30%;
+
+    }
+}
+.icon3{
+    position: relative;
+    right: 40%;
+    width: 35%;
+    bottom: 4%; 
+}
+@media all and (max-width: 1000px){
+    .icon3{
+        position: absolute;
+        bottom: 10%;
+        width: 20%;
+        left: 6%;
+    }
+    }
+.nine{
+    font-size: 80%;
+    position: relative;
+    bottom: 22% 
+}
+.nine
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+@media all and (max-width: 1000px){
+    .nine{
+        position: absolute;
+        bottom: 13%;
+        left: 30%;
+
+    }
+}
+.ten{
+    display: block;
+    position: absolute;
+    padding: 6%;
+    padding-top: 1%;
+    height: 16%;
+    width: 7%;
+    right: 1%;
+    bottom:-2%;
+    border-radius: 2%;
+    background-color: red;
+}
+@media all and (max-width: 1000px){
+    .ten{
+        position: relative;
+        width: 90%;
+        padding: 2%;
+        padding-bottom: 20%;
+        left: 4%;
+        bottom: 4%;
+        margin-top: -80%;
+    }
+}
+
+.eleven{
+    background-color: yellow;
+    font-size: 85%;
+    width: 85%;
+    border-radius: 7%;
+}
+.eleven
+a:link, a:visited{
+    text-decoration: none;
+    color: red;
+}
+@media all and (max-width: 1000px){
+    .eleven{
+        width: 30%;
+        text-align: center;
+        margin-left: 30%;
+        margin-bottom: 2%;
+    }
+}
+#li1{
+    font-size: 120%;
+    width: 180%;
+    position: relative;
+    top: 5%;
+    right: 30%;
+}
+#li1
+a:link, a:visited{
+    text-decoration: none;
+    color: white ;
+}
+@media all and (max-width: 1000px){
+    #li1{
+        text-align: center;
+        position: relative;
+        right: 40%;
+        
+    }
+}
+#li2{
+    position: relative;
+    font-size: 100%;
+    width: 180%;
+    top: 5%;
+    right: 25%;
+}
+#li2
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+@media all and (max-width: 1000px){
+    #li2{
+        text-align: center;
+        position: relative;
+        right: 40%;
+    }
+}
+#li3{
+    position: relative;
+    width: 200%;
+    right: 40%;
+    text-align: center ;
+}
+#li3
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+@media all and (max-width: 1000px){
+    #li3{
+        text-align: center;
+        position: relative;
+        right: 45%;
+    }
+}
+.app{
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    font-size: 50%;
+    position: absolute;
+    right: 47%;
+    bottom: 8%;
+    width: 38%;
+    
+}
+#store{
+    font-size: 150%;
+}
+.play{
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    font-size: 50%;   
+    position: absolute;
+    left: 56%;
+    width: 38%;
+    bottom: 8%;
+
+    
+}
+#google{
+    font-size: 150%   
+}
+.fourteen{
+    display: flex;
+    position: absolute;
+    top: 105%;
+    left: 3%;
+    padding: 1%;
+    padding-right: 6%;
+    background-color: white;
+    border-radius: 6%;
+}
+.icon4{
+    width: 20%;
+}
+#jmall{
+    margin-left: 10% ;
+    margin-top: 4%;
+}
+#jmall
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.fiftheen{
+    display: flex;
+    position: absolute;
+    top: 105%;
+    left: 26%;
+    padding: 1%;
+    padding-right: 6%;
+    background-color: white;
+    border-radius: 6%;
+}
+.icon5{
+    width: 20%;
+}
+#jglo{
+    margin-left: 10% ;
+    margin-top: 4%;
+}
+#jglo
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.sixteen{
+    display: flex;
+    position: absolute;
+    top: 105%;
+    left: 640px;
+    padding: 1%;
+    padding-right: 6%;
+    background-color: white;
+    border-radius: 6%;
+}
+.icon6{
+    width: 20%; 
+}
+#Airtime{
+    margin-left: 10% ;
+    margin-top: 4%;
+} 
+#Airtime
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.seventeen{
+    display: flex;
+    position: absolute;
+    top: 105%;
+    left: 960px;
+    padding: 1%;
+    padding-right: 6%;
+    background-color: white;
+    border-radius: 6%;
+}
+.icon7{
+    width: 20%; 
+}
+#del{
+    margin-left: 10% ;
+    margin-top: 4%;
+}
+#del
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    font-size: 120%;
+}
+.eighteen{
+    display: flex;
+    position: absolute;
+    top: 118%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+}
+.top{
+    font-size: 120%;
+    position: absolute;}
+.fridge{
+    width: 100%;
+    position: relative;
+    right: 11%;
+    top: 10%;
+    padding: 8%;
+    padding-left: 5%; 
+    padding-bottom: 20%;
+}
+.nineteen{
+display: inline-block;
+
+}
+#fridgewrite{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#fridgewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.shoe{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 15%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#shoewrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#shoewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.bed{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#bedwrite{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#bedwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.watch{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 10%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#watchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#watchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.snickers{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 8%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#snickerswrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#snickerswrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.goldwatch{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#goldwatchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#goldwatchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.twenty-five{
+    display: flex;
+    position: absolute;
+    top: 170%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+}
+.recent{
+    font-size: 120%;
+    position: absolute;}
+#seeing{
+        position: absolute;
+       right: -420%;
+       bottom: 2%;
+       font-size: 80%;   
+}
+#seeing
+a:link, a:visited{
+    text-decoration: none;
+    color: orange;
+}
+.camon{
+    width: 100%;
+    position: relative;
+    right: 11%;
+    top: 10%;
+    padding: 8%;
+    padding-left: 5%; 
+    padding-bottom: 20%;
+}
+.twenty-six{
+display: inline-block;
+
+}
+#camonwrite{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#camonwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.camon12pro{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 15%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12prowrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#camon12prowrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.camon12air{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12airwrite{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#camon12airwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.gionee{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 10%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#gioneewrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#gioneewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.spark4{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 8%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#spark4write{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#spark4write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.spark4air{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#spark4airwrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#spark4airwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.thirty-two{
+        display: flex;
+        position: absolute;
+        top: 220%;
+        left: 3%;
+        padding: 1%;
+        background-color: red;
+        border-radius: 2%; 
+        margin-right: 2%;
+        width: 93%;
+}
+.Flash{
+    display: flex;
+    font-size: 120%;
+    color: white;
+
+}
+#see{
+    position: absolute;
+    left: 90%;
+    font-size: 80%;
+}
+#see
+a:link, a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+.thirty-three{
+    display: flex;
+    position: absolute;
+    top: 227%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 0%; 
+    margin-right: 2%;
+}
+.canvas{
+    width: 100%;
+    position: relative;
+    right: 7%;
+    top: -2%;
+    padding: 0%;
+    padding-left: 5%; 
+    border-radius: 2%;
+    padding-bottom: 20%;
+}
+
+
+#canvaswrite{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#canvaswrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.polo{
+    width: 90%;
+    border-radius: 12%;
+    position: relative;
+    right: 1%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 22%;
+}
+#polowrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#polowrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.menshoe{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 12%;
+}
+#menshoewrite{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#menshoewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.handbag{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#handbagwrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#handbagwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.huaweicord{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 8%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#huaweicordwrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#huaweicordwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.cord{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#cordwrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#cordwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.forty{
+    display: block;
+    position: absolute;
+    top: 276%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 93%;
+}
+.Collections{
+display: flex;
+font-size: 120%;
+}
+.forty-one{
+    display: flex;
+}
+
+#iphonewrite{
+    font-size: 80%;
+    position: relative;
+    right: -22%;
+}
+#iphonewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.rated{
+    width: 107%;
+}
+.forty-eight{
+    display: flex;
+}
+.seemore{
+    width: 107%;;
+}
+.fifty-five{
+    display: flex;
+    position: absolute;
+    top: 324%;
+    left: 3%;
+    padding: 9px;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 94%;
+    justify-content: space-evenly;
+}
+.jumiaprime{
+    padding-right: 5px;
+    border-radius: 2%;
+}
+.order{
+    padding-left: 5px;
+    border-radius: 2%;
+}
+.fifty-six{
+    display: flex;
+    position: absolute;
+    top: 370%;
+    left: 3%;
+    padding: 1%;
+    background-color: orange;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 93%;
+}
+.smartwatches{
+display: flex;
+font-size: 120%;
+
+}
+#see2{
+    position: absolute;
+    left: 90%;
+    font-size: 80%;
+}
+#see2
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.fifty-seven{
+    display: flex;
+    position: absolute;
+    top: 377%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 0%; 
+    margin-right: 2%;
+}
+.menswatch{
+    width: 100%;
+    position: relative;
+    right: 7%;
+    top: -2%;
+    padding: 0%;
+    padding-left: 5%; 
+    border-radius: 2%;
+    padding-bottom: 20%;
+}
+
+
+#menswatchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#menswatchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.v9watch{
+    width: 90%;
+    border-radius: 12%;
+    position: relative;
+    right: 1%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 22%;
+}
+#v9watchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#v9watchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.m4watch{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: -8%;
+    padding: 8%;
+    padding-bottom: 12%;
+}
+#m4watchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#m4watchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.heartwatch{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#heartwatchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#heartwatchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.fitnesswatch{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 8%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#fitnesswatchwrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#fitnesswatchwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.bluetoothwatch{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#bluetoothwrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#bluetoothwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.sixty-four{
+    display: flex;
+    position: absolute;
+    top: 426%;
+    left: 3%;
+    padding: 9px;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 94%;
+    justify-content: space-evenly;
+}
+.menscollection{
+    padding-right: 5px;
+    border-radius: 2%;
+}
+.gocashless{
+    padding-left: 5px;
+    border-radius: 2%;
+}
+.sixty-five{
+    display: flex;
+    position: absolute;
+    top: 471%;
+    left: 3%;
+    padding: 1%;
+    background-color: orange;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 93%;
+}
+.gamingfiesta{
+display: flex;
+font-size: 120%;
+
+}
+#see3{
+    position: absolute;
+    left: 90%;
+    font-size: 80%;
+}
+#see3
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.sixty-six{
+    display: flex;
+    position: absolute;
+    top: 478%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 0%; 
+    margin-right: 2%;
+}
+.ps4controller{
+    width: 100%;
+    position: relative;
+    right: 7%;
+    top: -2%;
+    padding: 0%;
+    padding-left: 5%; 
+    border-radius: 2%;
+    padding-bottom: 20%;
+}
+
+
+#ps4controllerwrite{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#ps4controllerwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.ps3{
+    width: 90%;
+    border-radius: 12%;
+    position: relative;
+    right: 1%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 22%;
+}
+#ps3write{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#ps3write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.ps4pad{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: -8%;
+    padding: 8%;
+    padding-bottom: 12%;
+}
+#ps4padwrite{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#ps4padwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.portable{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#portablewrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#portablewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.ps3controller{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 4%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#ps3controllerwrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#ps3controllerwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.ps4{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#ps4write{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#ps4write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.seventy-three{
+    display: flex;
+    position: absolute;
+    top: 526%;
+    left: 3%;
+    padding: 9px;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 94%;
+    justify-content: space-evenly;
+}
+.techweek{
+    padding-right: 5px;
+    border-radius: 2%;
+}
+.jewelry{
+    padding-left: 5px;
+    border-radius: 2%;
+}
+.seventy-four{
+    display: flex;
+    position: absolute;
+    top: 570%;
+    left: 3%;
+    padding: 1%;
+    background-color: orange;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 93%;
+}
+.staysafe{
+display: flex;
+font-size: 120%;
+
+}
+#see4{
+    position: absolute;
+    left: 90%;
+    font-size: 80%;
+}
+#see4
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.seventy-five{
+    display: flex;
+    position: absolute;
+    top: 577%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 0%; 
+    margin-right: 2%;
+}
+.aloevera{
+    width: 100%;
+    position: relative;
+    right: 7%;
+    top: -2%;
+    padding: 0%;
+    padding-left: 5%; 
+    border-radius: 2%;
+    padding-bottom: 20%;
+}
+
+
+#aloeverawrite{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#aloeverawrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.soapblue{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 12%;
+}
+#soapbluewrite{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#soapbluewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.soapgreen{  
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    left: -8%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 12%;
+}
+#soapgreenwrite{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#soapgreenwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.jik{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#jikwrite{
+    font-size: 80%;
+    position: relative;
+    left: 5%;
+}
+#jikwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.soappink{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 6%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#soappinkwrite{
+    font-size: 80%;
+    position: relative;
+    left: 5%;
+}
+#soappinkwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.soapbrown{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 2%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#soapbrownwrite{
+    font-size: 80%;
+    position: relative;
+    left: 5%;
+}
+#soapbrownwrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.eighty-two{
+    display: flex;
+    position: absolute;
+    top: 625%;
+    left: 3%;
+    padding: 9px;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 94%;
+    justify-content: space-evenly;
+}
+.hairfood{
+    padding-right: 5px;
+    border-radius: 2%;
+}
+.vouchers{
+    padding-left: 5px;
+    border-radius: 2%;
+}
+.eighty-three{
+    display: flex;
+    position: absolute;
+    top: 670%;
+    left: 3%;
+    padding: 1%;
+    background-color: orange;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 93%;
+}
+.phones{
+display: flex;
+font-size: 120%;
+
+}
+#see5{
+    position: absolute;
+    left: 90%;
+    font-size: 80%;
+}
+#see5
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.eighty-four{
+    display: flex;
+    position: absolute;
+    top: 677%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 0%; 
+    margin-right: 2%;
+}
+.spark4air2{
+    width: 100%;
+    position: relative;
+    right: 7%;
+    top: -2%;
+    padding: 0%;
+    padding-left: 5%; 
+    border-radius: 2%;
+    padding-bottom: 20%;
+}
+
+
+#spark4air2write{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#spark4air2write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.s112{
+    width: 90%;
+    border-radius: 12%;
+    position: relative;
+    right: 1%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 22%;
+}
+#s112write{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#s112write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.a30{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: -8%;
+    padding: 8%;
+    padding-bottom: 12%;
+}
+#a30write{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#a30write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.s11white{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#s11whitewrite{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#s11whitewrite
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.y9{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 4%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#y9write{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#y9write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.s11{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: -9%;
+    padding: 8%;
+    padding-bottom: 13%;
+}
+#s11write{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#s11write
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.ninety-one{
+    display: flex;
+    position: absolute;
+    top: 725%;
+    left: 3%;
+    padding: 9px;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+    width: 94%;
+    justify-content: space-evenly;
+}
+.logistics{
+    padding-right: 5px;
+    border-radius: 2%;
+}
+.new{
+    padding-left: 5px;
+    border-radius: 2%;
+}
+.ninety-two{
+    display: flex;
+    position: absolute;
+    top: 770%;
+    left: 3%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 2%; 
+    margin-right: 2%;
+}
+.searchingfor{
+    display: flex;
+    font-size: 120%;
+    position: absolute;
+}
+
+#seeall{
+     position: absolute;
+    right: -290%;
+    font-size: 80%;
+}
+#seeall
+a:link, a:visited{
+text-decoration: none;
+color: orange;
+}
+.camon2{
+    width: 100%;
+    position: relative;
+    right: 11%;
+    top: 10%;
+    padding: 8%;
+    padding-left: 5%; 
+    padding-bottom: 20%;
+}
+.ninety-three{
+display: inline-block;
+
+}
+#camonwrite2{
+    font-size: 80%;
+    position: relative;
+    right: 0%;
+}
+#camonwrite2
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.camon12air2{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 12%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12airwrite2{
+    font-size: 80%;
+    position: relative;
+    right: 3%;
+}
+#camon12airwrite2
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.camon12pro2{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 15%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12prowrite2{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#camon12prowrite2
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+
+.camon12pro3{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 10%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12prowrite3{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#camon12prowrite3
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.camon12pro4{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 8%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12prowrite4{
+    font-size: 80%;
+    position: relative;
+    right: 2%;
+}
+#camon12prowrite4
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.camon12pro5{
+    width: 100%;
+    border-radius: 12%;
+    position: relative;
+    right: 5%;
+    top: 10%;
+    padding: 8%;
+    padding-bottom: 20%;
+}
+#camon12prowrite5{
+    font-size: 80%;
+    position: relative;
+    right: 1%;
+}
+#camon12prowrite5
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+.ninety-nine{
+    display: block;
+    top: 820%;
+    position: absolute;
+    background-color: white;
+    left: 3%;
+    border-radius: 2%;
+    margin-right: 2%;
+    padding: 1%;
+}
+h3{
+padding-bottom: 2%;
+}
+#small{
+    font-size: 80%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+.fashion
+a:link, a:visited{
+color: black;
+}
+.jumiapay
+a:link, a:visited{
+    color: black;
+}
+#small2{
+    font-size: 80%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+.frenzy
+a:link, a:visited{
+    color: black;
+}
+.vintage
+a:link, a:visited{
+color: black;
+}
+.womens
+a:link, a:visited{
+color: black;
+}
+#small3{
+    font-size: 80%;
+    padding-bottom: 1%;
+}
+.choice
+a:link, a:visited{
+    color: black;
+}
+#small4{
+    font-size: 80%;
+    padding-bottom: 1%; 
+}
+.technologyweek
+a:link, a:visited
+{
+color: black;
+}
+.calender
+a:link, a:visited{
+color: black;
+}
+#small5{
+    font-size: 80%;
+    padding-bottom: 1%; 
+}
+.nicemall
+a:link, a:visited{
+    color: black;
+}
+.topbrands
+a:link, a:visited{
+color: black;
+}
+.microsoft
+a:link, a:visited{
+    color: black;
+}
+.michelin
+a:link, a:visited{
+color: black;
+}
+#small6{
+font-size: 80%;
+text-align: justify;
+padding-bottom: 2%;
+}
+.one-hundred{
+   background-color: black;
+   color: white; 
+   display: flex;
+   padding: 5%;
+   font-size: 80%;
+   justify-content: space-around;
+}
+.one-hundred-and-one{
+    position: relative;
+    left: 10%;
+}
+#emailaddress{
+    position: absolute;
+    border: none;
+    width: 80%;
+    height: 60%;
+    border-radius: 4%;
+    padding-left: 7%;
+}
+#newjumia{
+    padding-bottom: 3%;
+}
+#subscription{
+    padding-bottom: 3%;
+}
+.big{
+    position: relative;
+    background-color: black;
+    padding: 1%;
+    width: 17%;
+    left: 90%;
+    border: 1px solid white;
+    border-radius: 9%;
+    color: white;
+    justify-content: space-around;
+}
+.big:hover{
+    color: orange;
+    border: 1px solid orange;
+}
+
+.one-hundred-and-two{
+    position: relative;
+    left: 9%;
+}
+#download{
+    padding-bottom: 3%;
+}
+#exclusiveaccess{
+    padding-bottom: 5%;
+}
+.playstore{
+    background-color: black;
+    height: 40%;
+    font-size: 80%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9%;
+}
+.playstore:hover{
+color: orange;
+border: 1px solid orange
+}
+.one-hundred-and-three{
+    display: flex;
+    padding: 2%;
+    color: white;
+    font-size: 80%;
+    justify-content: space-around;
+    background-color: rgb(49, 48, 48);
+}
+.one-hundred-and-eight{
+    display: flex;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-size: 80%;
+    padding-bottom: 10%;
+}
+.joinus{
+    margin-left: 6%;
+}
+.paymentmode{
+    margin-left: 21%;
+}
